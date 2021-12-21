@@ -2,8 +2,8 @@
 function ContactUs() {
     return (
     <>
-    <h1>Contact Us!</h1>
-    <pre>
+    <h1 className="display-1">Contact Us!</h1>
+    <pre>{`
         Alexandria Holecek
             Email: Alkaho31@github.com
         Dylan Degler
@@ -12,7 +12,7 @@ function ContactUs() {
             Email: jford7@github.com
         Moira Crawshaw
             Email: moiracrawshaw@github.com
-    </pre>
+    `}</pre>
     </>
     );
 }
